@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -66,4 +66,16 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+/* .discover-main {
+  height: 50; position: absolute; top: 0; left: 0;
 }
+.discover-body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: absolute; 
+  width: 100%;
+  height: calc(100% - 50px); 
+  top: 100px;
+  left: 0;
+} */

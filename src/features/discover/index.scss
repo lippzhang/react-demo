@@ -1,0 +1,35 @@
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  .adm-tab-bar-wrap {
+    overflow-x: scroll;
+  }
+  ::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+}
+
+.navbar {
+  flex: 0;
+  border-bottom: solid 1px var(--adm-color-border);
+}
+
+.bottom {
+  flex: 0;
+}
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 20px);
+}
+
+.discover-body {
+  position: absolute; 
+  width: 100%;
+  height: calc(100% - 50px); 
+  left: 0;
+}
+
